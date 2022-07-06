@@ -1,0 +1,16 @@
+PODS:
+  - RiskifiedBeaconXCFramework (1.3.2)
+
+DEPENDENCIES:
+  - RiskifiedBeaconXCFramework (~> 1.3.2)
+
+SPEC REPOS:
+  trunk:
+    - RiskifiedBeaconXCFramework
+
+SPEC CHECKSUMS:
+  RiskifiedBeaconXCFramework: d5b2f1a885ea33bd15c7757002d1c09788853dc3
+
+PODFILE CHECKSUM: fa1c2cd1775b50f948d6de6aa6a537ccce318770
+
+COCOAPODS: 1.11.3

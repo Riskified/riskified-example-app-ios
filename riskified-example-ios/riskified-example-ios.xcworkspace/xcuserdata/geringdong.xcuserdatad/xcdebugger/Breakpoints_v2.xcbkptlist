@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28C73357-DAF5-4E6C-9848-C524CE126D8C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5989EC05-D673-418E-9E6B-0140EE8F0A7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "riskified-example-ios/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "5989EC05-D673-418E-9E6B-0140EE8F0A7E - 5d158b9c48b99d58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "riskified_example_ios.AppDelegate.__allocating_init() -&gt; riskified_example_ios.AppDelegate"
+                  moduleName = "riskified-example-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/geringdong/Documents/GitRepos/riskified-example-app-ios/riskified-example-ios/riskified-example-ios/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "7">
+               </Location>
+               <Location
+                  uuid = "5989EC05-D673-418E-9E6B-0140EE8F0A7E - fff51dd10e07e8e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "riskified_example_ios.AppDelegate.init() -&gt; riskified_example_ios.AppDelegate"
+                  moduleName = "riskified-example-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/geringdong/Documents/GitRepos/riskified-example-app-ios/riskified-example-ios/riskified-example-ios/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "5989EC05-D673-418E-9E6B-0140EE8F0A7E - 7a07e422199b8c02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "riskified_example_ios.AppDelegate.__deallocating_deinit"
+                  moduleName = "riskified-example-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/geringdong/Documents/GitRepos/riskified-example-app-ios/riskified-example-ios/riskified-example-ios/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4C59E8D-2F63-4388-817E-B19A11B5CBFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "riskified-example-ios/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "F4C59E8D-2F63-4388-817E-B19A11B5CBFD - 508c84aa6ebfcbc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "riskified_example_ios.ContentView.appDelegate.getter : riskified_example_ios.AppDelegate"
+                  moduleName = "riskified-example-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/geringdong/Documents/GitRepos/riskified-example-app-ios/riskified-example-ios/riskified-example-ios/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "F4C59E8D-2F63-4388-817E-B19A11B5CBFD - 8da0e8f046ca498"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "riskified_example_ios.ContentView.init() -&gt; riskified_example_ios.ContentView"
+                  moduleName = "riskified-example-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/geringdong/Documents/GitRepos/riskified-example-app-ios/riskified-example-ios/riskified-example-ios/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCE266F9-43D0-4088-82E2-420F6E6C8905"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "riskified-example-ios/DecoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "decoConfig()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
