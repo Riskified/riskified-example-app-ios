@@ -51,7 +51,7 @@ class MyDecoController: UIViewController {
         showOrderProcessingScreen()
         RiskifiedBeacon .offerDeco(
                     DecoConfig(
-                        shopUrl: "deco-sandbox.riskified.com",
+                        shopUrl: "insert your shop url here",
                         sessionId: cartToken,
                         decoSuccessHandler: self.onSuccess,
                         loadCompleteHandler: self.hideOrderProcessingScreen,

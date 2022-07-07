@@ -38,7 +38,7 @@ struct LoginComponent: View {
                             .textFieldStyle(.roundedBorder)
                             .textInputAutocapitalization(.never)
                             .privacySensitive()
-                        
+                        mfa
                         HStack(){
                             Spacer()
                             Button("Log in"){

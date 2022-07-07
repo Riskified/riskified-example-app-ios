@@ -31,7 +31,7 @@ class MyMfaController: UIViewController{
     }
     
     func mfaConfig(){
-        RiskifiedBeacon .offerMFA(MfaConfig(token: <#T##String#>, verificationHandler: self.verificationHandler, widgetClosedHandler: self.widgetClosedHandler, parent: self, env: .sandbox, isDebug: true))
+        RiskifiedBeacon .offerMFA(MfaConfig(token: "insert your valid token", verificationHandler: self.verificationHandler, widgetClosedHandler: self.widgetClosedHandler, parent: self, env: .sandbox, isDebug: true))
     }
     
 }
