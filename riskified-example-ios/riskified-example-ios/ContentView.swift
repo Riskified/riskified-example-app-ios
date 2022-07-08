@@ -15,9 +15,11 @@ struct ContentView: View {
         NavigationView{
             VStack(){
                 //ChargebackView().navigationTitle("Chargeback flow")
-                NavigationLink(destination: ShoeCollectionView(), label: {
-                    Text("Chargeback").bold().frame(width: 280, height: 50).background(Color.blue).foregroundColor(Color.white).cornerRadius(50)
-                })
+                NavigationLink("Chargeback", destination: ShoeCollectionView())
+                    .frame(width: 280, height: 50)
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(50)
                 
                 NavigationLink("Deco", destination: DecoView())
                     .frame(width: 280, height: 50)
@@ -25,7 +27,11 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(50)
                 
-                //NavigationLink("Hi", destination: ShoeCollectionView())
+                NavigationLink("MFA", destination: LoginComponent())
+                    .frame(width: 280, height: 50)
+                    .background(.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(50)
             }
         }
     }

@@ -11,10 +11,6 @@ import RiskifiedBeacon
 struct ShoeCollectionView: View {
     
     
-//    init(){
-//        print("Inside init")
-//        RiskifiedBeacon.logRequest(URL(string: "/shoecollectionview"))
-//    }
     //create a reference type inside one of your views and make sure it stays alive for use in that view and others you share it with
     @StateObject var cart = CartItemManager()
     var columns = [GridItem(.adaptive(minimum: 160), spacing: 20)]
@@ -42,10 +38,8 @@ struct ShoeCollectionView: View {
             label: {
                 CartIcon(numOfItems: cart.shoes.count)
                 }
-                
             }
 
-       
         //navigationViewStyle modifier for contraints error
         .navigationViewStyle(.stack)
     }

@@ -27,6 +27,4 @@ struct MyDecoControllerExampleRepresentable: UIViewControllerRepresentable {
         decoComp.decoConfig(cartToken: cartToken)
     }
     
-
-    
 }

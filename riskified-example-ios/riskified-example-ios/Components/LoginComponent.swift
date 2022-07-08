@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LoginComponent: View {
     
+    private var mfa = MyMfaControllerExampleRepresentable()
     @StateObject var loginFunc = LoginModel()
     var body: some View {
         
@@ -37,10 +38,11 @@ struct LoginComponent: View {
                             .textFieldStyle(.roundedBorder)
                             .textInputAutocapitalization(.never)
                             .privacySensitive()
-                        
+                        mfa
                         HStack(){
                             Spacer()
                             Button("Log in"){
+                                mfa.launchMfa()
                                 loginFunc.authenticate()
                             }
                             .buttonStyle(.bordered)
@@ -58,10 +60,6 @@ struct LoginComponent: View {
                 //offset the view
                 .transition(.offset(x:0, y:850))
             }
-
-//        }.frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
-//            .background(Color.orange.opacity(0.2))
-//            .edgesIgnoringSafeArea(.all)
         
     }
 }
